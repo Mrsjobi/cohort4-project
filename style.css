@@ -1764,6 +1764,20 @@ body.app_version .dev-list .widget-title small{
     padding-left: 100px;
     float: right;  
 }
+
+@media screen and (max-width: 600px) and (min-width: 300px) {
+    .flexboximg{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/*
+@media screen and (min-width:600px) {
+    .flexbox{
+        width: 100%;
+    }*/
+
 /*
 
 .flexbox {
