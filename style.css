@@ -613,8 +613,8 @@ body.app_version .header_style_01.fixed-menu{
 }
 
 .section-title p {
-    color: #b08401;
-    font-weight: 300;
+    color: black;
+    font-weight: 500;
     font-size: 18px;
     line-height: 33px;
     margin: 0;
@@ -1746,48 +1746,36 @@ body.app_version .dev-list .widget-title small{
     animation: sonarEffect 1.3s ease-out 75ms;
 }
 
-.flexboximg{
-    margin-top: 100px;
-    width: 50%;
-    height: 50%;
-    display: inline-flex;
-    text-align: center;
-    padding-bottom: 50px;
+.projects{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.flexboxp{
+.project{
+    flex: 100%;
+    padding:20px;
+}
+
+.project p{
+    color: black;
     font-size: 20px;
+    font-weight: 500;
     text-align: center;
-    margin-top: 150px;
-    width: 50%;
-    height: 50%;
-    padding-left: 100px;
-    float: right;  
+    background-color: #d49e8d;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
-@media screen and (max-width: 600px) and (min-width: 300px) {
-    .flexboximg{
-        width: 100px;
-        height: 100px;
-    }
+.project img{
+    padding-top: 60px;
 }
 
-/*
-@media screen and (min-width:600px) {
-    .flexbox{
-        width: 100%;
-    }*/
-
-/*
-
-.flexbox {
-    display: inline;
-    padding-bottom: 50px;
-    width: 100%;
-    height: 100%;
+@media screen and (max-width: 600px) {
+    .project { width: 25%}
+    .project img { width: 100%}
 }
 
-*/
+
 
 
 
